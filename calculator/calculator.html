@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+
+    <div class="container">
+       <input type="text" id="output-field" placeholder="0" maxlength="20">
+       <div class="btns-container">
+           <button class="btn" onclick="reset()" id="ac-btn">AC</button>
+           <button class="btn DE" onclick="del()" id="de-btn">DE</button>
+           <button class="btn ." onclick="myFun('.')" id="dot-btn">.</button>
+           <button class="btn /" onclick="myFun('/')" id="divide-btn">/</button>
+           <button class="btn 7" onclick="myFun(7)" id="7-btn">7</button>
+           <button class="btn 8" onclick="myFun(8)" id="8-btn">8</button>
+           <button class="btn 9" onclick="myFun(9)" id="9-btn">9</button>
+           <button class="btn *" onclick="myFun('*')" id="mul-btn">*</button>
+           <button class="btn 4" onclick="myFun(4)" id="4-btn">4</button>
+           <button class="btn 5" onclick="myFun(5)" id="5-btn">5</button>
+           <button class="btn 6" onclick="myFun(6)" id="6-btn">6</button>
+           <button class="btn -" onclick="myFun('-')" id="sub-btn">-</button>
+           <button class="btn 1" onclick="myFun(1)" id="1-btn">1</button>
+           <button class="btn 2" onclick="myFun(2)" id="2-btn">2</button>
+           <button class="btn 3" onclick="myFun(3)" id="3-btn">3</button>
+           <button class="btn +" onclick="myFun('+')" id="add-btn">+</button>
+           <button class="btn (" onclick="myFun('(')" id="equal-btn">(</button>
+           <button class="btn 0" onclick="myFun(0)" id="0-btn">0</button>
+           <button class="btn )" onclick="myFun(')')" id="equal-btn">)</button>
+           <button id="equal"  class="btn =" onclick="compute()" id="equal-btn">=</button>
+           <button class="btn" onclick="myFun('log(')" id="equal-btn">log</button>
+           <button class="btn" onclick="myFun('e(')" id="equal-btn">EXP</button>
+           <button class="btn" onclick="myFun('rad(')" id="equal-btn">rad</button>
+           <button class="btn" onclick="myFun('pow(')" id="equal-btn">x<sup>n</sup></button>
+           <button class="btn ," onclick="myFun(',')" id="equal-btn">,</button>
+        
+       </div>
+
+    </div>
+
+
+    <script src="calc.js"></script>
+
+
+
+
+</body>
+</html>

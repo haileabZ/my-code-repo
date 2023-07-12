@@ -1,0 +1,52 @@
+
+.container{
+    background-color: rgb(7, 10, 44);
+    width: 300px;
+    height: 470px;
+    margin: 50px auto;
+    padding: 5px;
+
+}
+input{
+    width: 292px;
+    outline: none;
+    height: 50px;
+    background-color: rgb(68, 60, 97);
+    color: white;
+    font-size: 1.5rem;
+}
+input::placeholder{
+    color: white;
+}
+.btn{
+    background-color: rgb(12, 10, 68);
+   padding: 17px;
+   color: white;
+
+}
+.btn:hover{
+    opacity: 0.5;
+}
+#ac-btn{
+    background-color: red;
+}
+#equal{
+    background-color: rgba(49, 212, 28, 0.521);
+}
+.pressed{
+    opacity: 0.5;
+    border: 1px solid white;
+}
+
+
+
+.btns-container{
+ margin-top: 5px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ column-gap: 5px;
+ row-gap: 5px;
+}
+
+
+
